@@ -1,9 +1,9 @@
 
 
 # 🌋 Advanced Retrieval-Augmented Generation (RAG) Pipeline  
-### Volcano Research Assistant
+### `Using Volcano wikipedia page`
 
-This project implements an **end-to-end, production-style RAG pipeline** that answers geological research questions using curated Wikipedia content on volcanoes.
+This repository demonstrates a production-grade **Retrieval-Augmented Generation (RAG)** pipeline designed for high-precision information extraction. While this implementation uses Wikipedia's "Volcano" article as a test case, the architecture is **domain-agnostic** and built to handle any complex unstructured text.
 
 Unlike basic vector search demos, this system incorporates **semantic data cleaning, metadata-aware chunking, and second-stage reranking** to significantly improve answer precision and reduce hallucinations.
 
