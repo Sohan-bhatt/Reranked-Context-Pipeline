@@ -1,6 +1,6 @@
 
 
-# 🌋 Advanced Retrieval-Augmented Generation (RAG) Pipeline  
+# Advanced Retrieval-Augmented Generation (RAG) Pipeline  
 ### `Using Volcano wikipedia page`
 
 This repository demonstrates a production-grade **Retrieval-Augmented Generation (RAG)** pipeline designed for high-precision information extraction. While this implementation uses Wikipedia's "Volcano" article as a test case, the architecture is **domain-agnostic** and built to handle any complex unstructured text.
@@ -9,7 +9,7 @@ Unlike basic vector search demos, this system incorporates **semantic data clean
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
 ```python
 Wikipedia Page
@@ -31,7 +31,7 @@ LLM Answer Generation (GPT-4o)
 
 ---
 
-## 🎯 Problems This Project Solves
+## Problems This Project Solves
 
 ### 1. Noisy Data Ingestion
 Raw HTML scraping often introduces:
@@ -66,7 +66,7 @@ A **two-stage retrieval pipeline**:
 
 ---
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 | Component | Technology |
 |--------|-----------|
@@ -81,12 +81,12 @@ A **two-stage retrieval pipeline**:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
-### 1️⃣ Clone the Repository
+### 1️⃣Clone the Repository
 ```bash
 git clone https://github.com/Sohan-bhatt/Reranked-Context-Pipeline.git
-cd volcano-rag
+cd Reranked-Context-Pipeline
 ````
 
 ### 2️⃣ Create Environment & Install Dependencies
@@ -106,18 +106,9 @@ OPENAI_API_KEY=your_api_key_here
 
 ---
 
-## 🔍 Example Query
+## Example Query
 
 ```python
 "What are the long-term environmental impacts of volcanic eruptions?"
 ```
-
-
-
-## 📌 Key Takeaway
-
-This project demonstrates how **careful preprocessing, retrieval design, and reranking** can dramatically outperform naïve RAG systems — even when using the same LLM.
-
-It is designed as a **scalable foundation** for real-world research assistants.
-
 
